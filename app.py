@@ -39,7 +39,7 @@ load_dotenv()
 
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") or "ART INTEL"
-UI_LOGO = os.environ.get("UI_LOGO")
+UI_LOGO = os.environ.get("UI_LOGO") or "/static/assets/33.svg"
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Enter manifestations to solve"
 UI_CHAT_DESCRIPTION = (
